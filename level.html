@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./level.css">
+    
+</head>
+
+<body>
+    <div id="math-parent">
+        <video id="video-background" autoplay loop muted>
+            <source src="./videos/video (2160p).mp4">
+        </video>
+        <div id="material">
+            <div>
+                <div class="nums">
+
+                    <input id="cell1" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell2" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell3" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell4" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell5" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell6" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell7" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell8" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell9" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell10" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell11" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell12" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell13" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell14" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell15" type="number" min="1" max="4" class="custom-input">
+                    <input id="cell16" type="number" min="1" max="4" class="custom-input">
+                </div>
+
+                <button class="checkbtn" onclick="checkSolution()">Check solution</button>
+
+            </div>
+            <div>
+                <div>
+                    <h1 id="entered-user">Hello ! &nbsp;<span id="name"></span> </h1>
+                </div>
+                <div class="details">
+                    <p></p>
+                    <p>multiply numbers to get 24</p>
+                    <p></p>
+                    <p>add numbers to get 3</p>
+                    <p></p>
+                    <p>multiply numbers to get 4</p>
+                    <p></p>
+                    <p>multiply numbers to get 12</p>
+                    <p></p>
+                    <p>multiply numbers to get 4</p>
+                    <p></p>
+                    <p>multiply numbers to get 6</p>
+                    <p></p>
+                    <p>divide numbers to get 2</p>
+                </div>
+                <div>
+                    <h1 id="score">Your score : &nbsp;<span id="scoreboard">0</span></h1>
+                </div>
+                <div>
+                    <button id="backbtn">Go Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./level.js"></script>
